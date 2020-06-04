@@ -75,8 +75,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private FirebaseFirestore mDb = FirebaseFirestore.getInstance();
     private DocumentReference mDocRef = FirebaseFirestore.getInstance().document("UserLocation/user_location");
 
-
-
     @Override
     public void onMapReady(GoogleMap googleMap) {
         Toast.makeText(this, "Map is ready", Toast.LENGTH_SHORT).show();
