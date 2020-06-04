@@ -46,8 +46,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-
-
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback,
         GoogleApiClient.OnConnectionFailedListener,
         GoogleMap.OnPoiClickListener,
